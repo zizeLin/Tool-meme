@@ -1,0 +1,30 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Local secrets and environment files
+.env
+.env.*
+
+# Generated outputs and large local artifacts
+CAMR_output/
+embeddings/
+results/
+rl_atr/*/
+
+# Dataset payloads. Keep data/README.md and preprocessing scripts tracked.
+data/FHM/
+data/HarM/
+data/MAMI/
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
